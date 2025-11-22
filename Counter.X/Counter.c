@@ -20,11 +20,10 @@ void main(void) {
         unsigned char button = PORTAbits.RA0;
         
         if (button == 1){
-            counter+1
-        }
+            counter = counter + 1;}
         
-        if (counter == 10)[
-                counter = 0];
+        if (counter == 10){
+                counter = 0;}
         
     
     }
@@ -52,26 +51,25 @@ void main(void) {
                 break;
                 
             case 5:
-                PORTB = 0x3b;
+                PORTB = 0xba;
                 break;
                 
             case 6:
-                PORTB = 0x3b;
+                PORTB = 0xde;
                 break;
                 
             case 7:
-                PORTB = 0x3b;
+                PORTB = 0xe0;
                 break;
                
             case 8:
-                PORTB = 0x7f;
+                PORTB = 0xfe;
                 break;
                 
             case 9:
-                PORTB = 0x6f;
+                PORTB = 0xf6;
                 break;
                 
     }
-}
     return;
 }
