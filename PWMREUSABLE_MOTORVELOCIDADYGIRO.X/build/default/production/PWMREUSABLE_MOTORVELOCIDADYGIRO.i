@@ -1930,7 +1930,7 @@ void pwm_init(void){
     TRISCbits.TRISC2 = 0;
     CCP1CON = 0b00001100;
 
-    PR2 = 249;
+    PR2 = 61;
     T2CON = 0b00000101;
 
     CCPR1L = 0;

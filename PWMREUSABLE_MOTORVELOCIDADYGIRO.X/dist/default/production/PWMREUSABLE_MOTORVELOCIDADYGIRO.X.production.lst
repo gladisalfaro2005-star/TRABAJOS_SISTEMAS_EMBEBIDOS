@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V3.10 build 20250813170317 
-                                                                                               Tue Nov 25 21:33:29 2025
+                                                                                               Tue Nov 25 22:37:50 2025
 
 Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1 
      1                           	processor	16F877A
@@ -1050,8 +1050,8 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1033     0652  1303               	bcf	3,6	;RP1=0, select bank0
   1034     0653  0097               	movwf	23	;volatile
   1035                           
-  1036                           ;PWMREUSABLE_MOTORVELOCIDADYGIRO.c: 21:     PR2 = 249;
-  1037     0654  30F9               	movlw	249
+  1036                           ;PWMREUSABLE_MOTORVELOCIDADYGIRO.c: 21:     PR2 = 61;
+  1037     0654  303D               	movlw	61
   1038     0655  1683               	bsf	3,5	;RP0=1, select bank1
   1039     0656  1303               	bcf	3,6	;RP1=0, select bank1
   1040     0657  0092               	movwf	18	;volatile
@@ -1197,7 +1197,7 @@ DATA                 0      0      42      0.0%
 
 
 Microchip Technology PIC Macro Assembler V3.10 build 20250813170317 
-Symbol Table                                                                                   Tue Nov 25 21:33:29 2025
+Symbol Table                                                                                   Tue Nov 25 22:37:50 2025
 
                      l40 06F8                       l25 065D                       l29 07FB  
                      l39 06F2                      l144 06A3                      l166 0766  
